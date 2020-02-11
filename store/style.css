@@ -43,6 +43,40 @@ html {
     color: black;
 }
 
+.cartbtn {
+    float: right;
+    color: white;
+    background-color: #385a36;
+    text-align: center;
+    margin: 14px 25px 0px 0px;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.yourCart {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hidden {
+    display: flex;
+}
+
+.resultstyle {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    position: absolute;
+    background-color: #385a36;
+    opacity: 0.9;
+    width: 400px;
+    color: white;
+}
+
 .itemsContainer {
     font-family: 'Libre Baskerville', serif;
     margin-top: 5em;
