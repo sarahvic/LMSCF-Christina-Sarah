@@ -1,0 +1,61 @@
+var groceries = `[{
+    "ID": "01",
+    "name": "Cheese",
+    "price": "2.00",
+    "img": ""
+},
+{
+    "ID": "02",
+    "name": "Milk",
+    "price": "1.00",
+    "img": ""
+},
+{
+    "ID": "03",
+    "name": "Apples",
+    "price": "0.70",
+    "img": ""
+},
+{
+    "ID": "04",
+    "name": "Oranges",
+    "price": "0.80",
+    "img": ""
+},
+{
+    "ID": "05",
+    "name": "Butter",
+    "price": "1.50",
+    "img": ""
+},
+{
+    "ID": "06",
+    "name": "Ham",
+    "price": "1.70",
+    "img": ""
+},
+{
+    "ID": "07",
+    "name": "Pizza",
+    "price": "3.00",
+    "img": ""
+},
+{
+    "ID": "08",
+    "name": "Wine",
+    "price": "10.00",
+    "img": ""
+},
+{
+    "ID": "09",
+    "name": "Beer",
+    "price": "2.00",
+    "img": ""
+},
+{
+    "ID": "10",
+    "name": "Lettuce",
+    "price": "0.50",
+    "img": ""
+}]
+`;

@@ -1,153 +1,111 @@
-body, html {
+body,
+html {
     height: 100%;
 }
 
-.hero-image { 
-  background-image: linear-gradient(rgba(0,0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("https://cdn.pixabay.com/photo/2016/02/17/19/26/tomato-1205699_960_720.jpg");
-  height: 60%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2016/02/17/19/26/tomato-1205699_960_720.jpg");
+    height: 60%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 70%;
-  left: 27%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
 }
 
 .topnav {
-  background-color: #385a36;
-  overflow: hidden;
+    background-color: #385a36;
+    overflow: hidden;
 }
 
 .topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 21px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 21px;
 }
 
 .topnav a:hover {
-  background-color: #f4eee8;
-  color: black;
-}
-
-.intro {
-  text-align: center;
-  padding-top: 30px;
-  font-family: 'Libre Baskerville', serif;
-}
-
-.picContainer {
-  text-align: center;
-}
-
-.img1 {
-  margin: auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 20px;
-  padding-right: 20px;
-  outline-style: dotted;
-  outline-color: #385a36;
-  width: 70%;
-  font-family: 'Libre Baskerville', serif;
-}
-
-.row {
-margin: auto;
-margin-top:25px;
-margin-bottom: 50px;
-padding-top: 25px;
-padding-bottom: 25px;
-padding-left: 20px;
-padding-right: 20px;
-outline-style: dotted;
-outline-color: #385a36;
-width: 70%;
-display:inline-block;
-font-family: 'Libre Baskerville', serif;
-}
-
-.column1{
-  float: left;
-}
-
-.column2{
-  float: right;
+    background-color: #f4eee8;
+    color: black;
 }
 
 .container {
-  font-family: 'Libre Baskerville', serif;
-  margin: auto;
-  width: 45%;
+    font-family: 'Libre Baskerville', serif;
+    margin: auto;
+    width: 45%;
 }
 
-
 .contact {
-  margin: auto;
-  border-radius: 5px;
-  background-color: #f4eee8;
-  padding: 10px;
-  width: 85%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f4eee8;
+    padding: 10px;
+    width: 85%;
 }
 
 address {
-  text-align: center;
+    text-align: center;
 }
 
 form {
-  width: 90%;
-  margin: auto;
+    width: 90%;
+    margin: auto;
 }
 
+
 /* Style form inputs */
-input[type=text], select, textarea {
-  width:95%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
+
+input[type=text],
+select,
+textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
 }
 
 input[type=submit] {
-  background-color: #385a36;
-  color: white;
-  padding: 12px 12px;
-  cursor: pointer;
+    background-color: #385a36;
+    color: white;
+    padding: 12px 12px;
+    cursor: pointer;
 }
 
-#submit{
-  text-align: center;
+#submit {
+    text-align: center;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 .message {
-  margin: auto;
-  font-family: 'Libre Baskerville', serif;
-  text-align: center
+    margin: auto;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center
 }
 
 footer {
-  margin-top: 25px;
-  text-align: center;
-  background-color: #385a36;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-family: 'Libre Baskerville', serif;
+    margin-top: 25px;
+    text-align: center;
+    background-color: #385a36;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Libre Baskerville', serif;
 }
